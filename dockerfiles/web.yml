@@ -3,4 +3,4 @@ services:
   web:
     image: $REGISTRY/$REPO:$IMAGE_SHA
     ports:
-      - "8080"
+      - "8080:80"
