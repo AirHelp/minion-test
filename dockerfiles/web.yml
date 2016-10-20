@@ -1,6 +1,6 @@
 version: '2'
 services:
   web:
-    image: $REGISTRY/$REPO:$IMAGE_SHA
+    image: $REPO:$IMAGE_SHA
     ports:
       - "8080:80"
