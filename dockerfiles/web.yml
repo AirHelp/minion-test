@@ -3,6 +3,6 @@ services:
   web:
     image: $REPO:$IMAGE_SHA
     ports:
-      - "8080:80"
+      - "80"
   webredis:
     image: redis
